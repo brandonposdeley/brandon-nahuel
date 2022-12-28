@@ -11,7 +11,7 @@ export const DataProvider = ({ children }) => {
     setStatusColor(!statusColor);
     if (statusColor) {
       setColors("bg-gray-200");
-      setTextColor("text-black");
+      setTextColor("text-slate-600");
     } else {
       setColors("bg-gray-800");
       setTextColor("text-white");
